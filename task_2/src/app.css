@@ -28,7 +28,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 h1 {
@@ -41,7 +41,7 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -77,4 +77,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"],
+input[type="number"]:hover,
+input[type="number"]:focus {
+  appearance: none;
+  -moz-appearance: textfield;
 }
